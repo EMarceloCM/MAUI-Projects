@@ -1,7 +1,7 @@
-# Numero da Sorte
-App simples feito no .NET MAUI
-## Funcionalidades
-  - Gera 6 números aleatórios no formato de um sorteio da megasena para serem utilizados no sorteio
+# Numero da Sorte (Lucky number)
+Simple app made in MAUI (My first one)
+## Functionalities
+  - Generates 6 random numbers in the format of a megasena draw to be used in the draw
 # Preview
 <img src = "https://github.com/EMarceloCM/Numero-da-Sorte/assets/120042864/7ff2b7ff-2da9-417f-adf1-2e4b6d92afff" style="width: 270px; height: auto;">
 </img>
