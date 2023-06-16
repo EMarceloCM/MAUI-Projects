@@ -1,2 +1,2 @@
 # MAUI-Projects
-Some projects i'm making while studiyng
+Some projects i'm making while studying
