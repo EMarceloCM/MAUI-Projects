@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Jogo_da_Forca.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <FlexLayout Direction="Column" JustifyContent="SpaceBetween">
+            <VerticalStackLayout
+                Padding="3"
+                HorizontalOptions="End"
+                Spacing="2">
+                <Button
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    Clicked="OnButtonClickedResetGame"
+                    Text="Reiniciar" />
+                <Button
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    Clicked="ChangeTheme"
+                    Text="Mode" />
+            </VerticalStackLayout>
+            <Image
+                x:Name="imgMain"
+                Margin="0,-15,0,0"
+                HeightRequest="200"
+                HorizontalOptions="Center"
+                Source="forca1.png" />
+
+            <Label
+                x:Name="lblTips"
+                FontSize="32"
+                HorizontalOptions="Center"
+                Text="" />
+
+            <Label
+                x:Name="lblText"
+                CharacterSpacing="5"
+                FontSize="36"
+                HorizontalOptions="Center"
+                Text="" />
+
+            <VerticalStackLayout x:Name="KeyBoardContainer" Spacing="2">
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="1">
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="Q" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="W" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="E" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="R" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="T" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="Y" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="U" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="I" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="O" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="P" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="1">
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="A" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="S" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="D" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="F" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="G" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="H" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="J" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="K" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="L" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout
+                    Margin="0,0,0,10"
+                    HorizontalOptions="Center"
+                    Spacing="1">
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="Z" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="X" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="C" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="V" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="B" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="N" />
+                    <Button
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        Clicked="OnButtonClicked"
+                        HorizontalOptions="Center"
+                        Text="M" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>
