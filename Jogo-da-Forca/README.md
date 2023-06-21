@@ -1,5 +1,5 @@
 # Jogo da Forca
-The famous game of hangman
+The famous hangman game
 ## Preview
 <img src="https://github.com/EMarceloCM/MAUI-Projects/assets/120042864/dea3eaa6-ab2e-46f5-8d91-b735ffb55b25" width="200">
 <img src="https://github.com/EMarceloCM/MAUI-Projects/assets/120042864/48aab83f-8536-4ebe-a713-e96139c3663b" width="200">
