@@ -1,0 +1,1 @@
+C:\Users\edmyl\source\repos\Task\Task.csproj;x64
