@@ -34,7 +34,6 @@
                 <Border StrokeShape="RoundRectangle 10">
                     <Editor
                         x:Name="Editor_TaskDescription"
-                        BackgroundColor="LightCyan"
                         HeightRequest="150"
                         Placeholder="Descrição" />
                 </Border>

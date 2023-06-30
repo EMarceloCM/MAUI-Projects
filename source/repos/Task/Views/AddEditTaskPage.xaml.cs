@@ -1,4 +1,5 @@
 using AppTask.Models;
+using Task.Libraries.Fix;
 using Task.Repositories;
 
 namespace Task.Views;
@@ -42,15 +43,18 @@ public partial class AddEditTaskPage : ContentPage
         {
             _task.SubTasks.Add(new SubTaskModel { Name = stepName, IsCompleted = false });
         }
+        KeyboardFix.HideKeyBoard();
     }
 
     private void CloseModal(object sender, EventArgs e)
     {
+        KeyboardFix.HideKeyBoard();
         Navigation.PopModalAsync();
     }
 
     private void SaveData(object sender, EventArgs e)
     {
+        KeyboardFix.HideKeyBoard();
         //obter os dados
         GetDataFromForm();
         //validar os dados
@@ -123,6 +127,7 @@ public partial class AddEditTaskPage : ContentPage
 
     private void OnTapToDelete(object sender, TappedEventArgs e)
     {
+        KeyboardFix.HideKeyBoard();
         _task.SubTasks.Remove((SubTaskModel)e.Parameter);
     }
 }

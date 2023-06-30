@@ -1,5 +1,6 @@
 using AppTask.Models;
 using Task.Repositories;
+using Task.Libraries.Fix;
 
 namespace Task.Views;
 
@@ -25,6 +26,7 @@ public partial class StartPage : ContentPage
 
     private void OnButtonClickedToAdd(object sender, EventArgs e)
     {
+        KeyboardFix.HideKeyBoard();
         Navigation.PushModalAsync(new AddEditTaskPage());
     }
 
@@ -35,6 +37,7 @@ public partial class StartPage : ContentPage
 
     private async void OnClickedImageToDelete(object sender, TappedEventArgs e)
     {
+        KeyboardFix.HideKeyBoard();
         var task = (TaskModel)e.Parameter;
         var confirm = await DisplayAlert("Confime a exclusão!", $"Tem certeza que deseja excluir a tarefa: \"{task.Name}\"?", "Sim", "Não");
 
@@ -47,6 +50,8 @@ public partial class StartPage : ContentPage
 
     private void OnCheckboxClickedToComplete(object sender, TappedEventArgs e)
     {
+        //Apareceu um problema onde o checkbox nao alterava seu estado após ser clicado, apesar de que no inicio estava funcionando, por isto a linha 54 existe
+        ((CheckBox)sender).IsChecked = !((CheckBox)sender).IsChecked;
         var task = (TaskModel)e.Parameter;
         task.IsCompleted = ((CheckBox)sender).IsChecked;
         
@@ -55,6 +60,7 @@ public partial class StartPage : ContentPage
 
     private void OnTapToEdit(object sender, TappedEventArgs e)
     {
+        KeyboardFix.HideKeyBoard();
         var task = (TaskModel)e.Parameter;
         Navigation.PushModalAsync(new AddEditTaskPage(_repository.GetById(task.Id)));
     }
