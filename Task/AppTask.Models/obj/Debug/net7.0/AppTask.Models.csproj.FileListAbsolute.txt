@@ -1,0 +1,12 @@
+C:\Users\edmyl\source\repos\AppTask.Models\bin\Debug\net7.0\AppTask.Models.deps.json
+C:\Users\edmyl\source\repos\AppTask.Models\bin\Debug\net7.0\AppTask.Models.dll
+C:\Users\edmyl\source\repos\AppTask.Models\bin\Debug\net7.0\AppTask.Models.pdb
+C:\Users\edmyl\source\repos\AppTask.Models\obj\Debug\net7.0\AppTask.Models.csproj.AssemblyReference.cache
+C:\Users\edmyl\source\repos\AppTask.Models\obj\Debug\net7.0\AppTask.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edmyl\source\repos\AppTask.Models\obj\Debug\net7.0\AppTask.Models.AssemblyInfoInputs.cache
+C:\Users\edmyl\source\repos\AppTask.Models\obj\Debug\net7.0\AppTask.Models.AssemblyInfo.cs
+C:\Users\edmyl\source\repos\AppTask.Models\obj\Debug\net7.0\AppTask.Models.csproj.CoreCompileInputs.cache
+C:\Users\edmyl\source\repos\AppTask.Models\obj\Debug\net7.0\AppTask.Models.dll
+C:\Users\edmyl\source\repos\AppTask.Models\obj\Debug\net7.0\refint\AppTask.Models.dll
+C:\Users\edmyl\source\repos\AppTask.Models\obj\Debug\net7.0\AppTask.Models.pdb
+C:\Users\edmyl\source\repos\AppTask.Models\obj\Debug\net7.0\ref\AppTask.Models.dll
