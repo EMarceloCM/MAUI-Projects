@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Gallery.View.Styles.StyleClassPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="StyleClassPage">
+    <ContentPage.Resources>
+        <Style Class="ClassParagraph" TargetType="Label">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="TextColor" Value="Gray" />
+        </Style>
+
+        <Style Class="ClassPadding" TargetType="Label">
+            <Setter Property="Padding" Value="20" />
+        </Style>
+
+        <Style Class="ClassRotation" TargetType="Label">
+            <Setter Property="Rotation" Value="10" />
+        </Style>
+
+    </ContentPage.Resources>
+    <VerticalStackLayout>
+        <Label
+            Style="{StaticResource Title}"
+            StyleClass="ClassPadding, ClassRotation"
+            Text="Artigo 1" />
+        <Label StyleClass="ClassPadding, ClassParagraph, ClassRotation" Text="Paragrafo XYZ" />
+    </VerticalStackLayout>
+</ContentPage>

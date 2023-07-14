@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Gallery.View.CommunityMaui.MediaElementPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Title="MediaElementPage">
+    <VerticalStackLayout>
+        <!--  Link|FileSystem|EmbbedResource  -->
+        <toolkit:MediaElement
+            x:Name="player"
+            HeightRequest="230"
+            ShouldAutoPlay="False"
+            ShouldLoopPlayback="False"
+            ShouldShowPlaybackControls="False"
+            Source="https://static.videezy.com/system/resources/previews/000/018/948/original/ICON-VERSION8_1.mp4"
+            WidthRequest="410" />
+        <Button Clicked="OnClickedToPlay" Text="Play" />
+    </VerticalStackLayout>
+</ContentPage>

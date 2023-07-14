@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gallery.View.Cells.EntryCellPage"
+             Title="EntryCellPage">
+    <VerticalStackLayout>
+        <TableView>
+            <TableSection Title="Cadastro">
+                <EntryCell Label="Digite uma informacao:" Placeholder="hoje é sábado"/>
+                <EntryCell Label="Digite outra informacao:" Placeholder="gosto de abacaxi"/>
+                <EntryCell Label="Digite mais uma informacao:" Placeholder="joaninhas nao sao tao legais assim"/>
+            </TableSection>
+        </TableView>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="Gallery.View.Shells.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:Gallery.View.Shells.Pages"
+    Title="AppShell"
+    Shell.TabBarIsVisible="False">
+    <!--
+    <TabBar>
+        <Tab Title="Página 01" Icon="one.png">
+            <pages:Page01 />
+        </Tab>
+        <ShellContent
+            Title="Página 02"
+            ContentTemplate="{DataTemplate pages:Page02}"
+            Icon="two.png" />
+        <ShellContent
+            Title="Página 03"
+            ContentTemplate="{DataTemplate pages:Page03}"
+            Icon="three.png" />
+        <Tab Title="4 e 5">
+            <ShellContent Title="Página 04" Icon="four.png">
+                <pages:Page04 Shell.TabBarIsVisible="False"/>
+            </ShellContent>
+            <ShellContent Title="Página 05" Icon="five.png">
+                <pages:Page05 />
+            </ShellContent>
+        </Tab>
+    </TabBar>
+    -->
+    <!--
+    <FlyoutItem Title="Página 01" FlyoutIcon="one.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Page01}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Página 02" FlyoutIcon="one.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Page02}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Página 03" FlyoutIcon="one.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Page03}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Página 04" FlyoutIcon="one.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Page04}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Página 05" FlyoutIcon="one.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Page05}" />
+    </FlyoutItem>
+    -->
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid Padding="10,0" ColumnDefinitions="*, 40">
+                <Label Text="{Binding Title}" VerticalOptions="Center" />
+                <Image
+                    Grid.Column="1"
+                    Margin="6"
+                    Source="{Binding Icon}" />
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <Grid Padding="10,0" ColumnDefinitions="*, 40">
+                <Label Text="{Binding Title}" VerticalOptions="Center" />
+                <Image
+                    Grid.Column="1"
+                    Margin="7"
+                    Source="{Binding Icon}" />
+            </Grid>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>
+
+    <Shell.FlyoutHeader>
+        <StackLayout Padding="20">
+            <Image HeightRequest="70" Source="clock.png" />
+            <Label
+                FontSize="10"
+                HorizontalOptions="Center"
+                Text="Nome aqui" />
+            <Label
+                FontSize="8"
+                HorizontalOptions="Center"
+                Text="email@gmail.com" />
+        </StackLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <Tab
+            Title="Página 01"
+            Icon="one.png"
+            Route="pg1">
+            <pages:Page01 />
+        </Tab>
+        <ShellContent
+            Title="Página 02"
+            ContentTemplate="{DataTemplate pages:Page02}"
+            Icon="two.png"
+            Route="pg2" />
+        <ShellContent
+            Title="Página 03"
+            ContentTemplate="{DataTemplate pages:Page03}"
+            Icon="three.png"
+            Route="pg3" />
+        <Tab Title="4 e 5" Route="cadastro">
+            <ShellContent
+                Title="Página 04"
+                Icon="four.png"
+                Route="passo1">
+                <pages:Page04 Shell.TabBarIsVisible="False" />
+            </ShellContent>
+            <ShellContent
+                Title="Página 05"
+                Icon="five.png"
+                Route="passo2">
+                <pages:Page05 />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <MenuItem
+        Clicked="BackToGallery"
+        IconImageSource="out.png"
+        Text="Sair" />
+
+    <Shell.FlyoutFooter>
+        <Label
+            Padding="10"
+            FontSize="8"
+            Text="Versão: 1.0.0" />
+    </Shell.FlyoutFooter>
+
+</Shell>

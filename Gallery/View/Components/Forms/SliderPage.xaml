@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Gallery.View.Components.Forms.SliderPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="SliderPage">
+    <VerticalStackLayout>
+        <Label
+            HorizontalOptions="Start"
+            Text="Quantidade de Quartos:"
+            VerticalOptions="Center" />
+        <Slider
+            Maximum="10"
+            MaximumTrackColor="Aqua"
+            Minimum="0"
+            MinimumTrackColor="LightPink"
+            ThumbImageSource="dotnet_bot.png"
+            Value="5" />
+    </VerticalStackLayout>
+</ContentPage>

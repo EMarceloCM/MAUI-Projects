@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Gallery.View.Layout.FlaxLayoutPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="FlexLayoutPage">
+    <FlexLayout
+        AlignItems="Start"
+        Direction="Column"
+        JustifyContent="Center"
+        Wrap="Wrap">
+        <Label
+            Padding="10"
+            BackgroundColor="RosyBrown"
+            FlexLayout.Order="1"
+            Text="Olá Mundo" />
+        <Label
+            Padding="10"
+            BackgroundColor="SandyBrown"
+            FlexLayout.AlignSelf="Center"
+            FlexLayout.Basis="15%"
+            FlexLayout.Order="0"
+            Text="Olá Mundo" />
+        <Label
+            Padding="10"
+            BackgroundColor="SaddleBrown"
+            FlexLayout.AlignSelf="End"
+            FlexLayout.Order="3"
+            Text="Olá Mundo" />
+        <Label
+            Padding="10"
+            BackgroundColor="White"
+            FlexLayout.AlignSelf="Stretch"
+            FlexLayout.Order="2"
+            Text="Olá Mundo"
+            TextColor="Black" />
+    </FlexLayout>
+</ContentPage>

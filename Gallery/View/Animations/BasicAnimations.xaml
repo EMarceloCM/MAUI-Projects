@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Gallery.View.Animations.BasicAnimations"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="BasicAnimations">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Border HeightRequest="300">
+                <Image
+                    x:Name="Image"
+                    Source="dotnet_bot.png"
+                    WidthRequest="150" />
+            </Border>
+            <Button Clicked="Normal" Text="Normal" />
+            <Button Clicked="Diminuir" Text="Diminuir" />
+            <Button Clicked="Aumentar" Text="Aumentar" />
+            <Button Clicked="Mover" Text="Mover" />
+            <Button Clicked="Rotacao" Text="Rotação" />
+            <Button Clicked="Opacidade" Text="Tranparencia" />
+            <Border Margin="10" Padding="10">
+                <VerticalStackLayout>
+                    <Button Clicked="Sequencial" Text="Sequencial" />
+                    <Button Clicked="Pararelo" Text="Paralelo" />
+                    <Button Clicked="Button_Clicked" Text="Cancelamento" />
+                </VerticalStackLayout>
+            </Border>
+            <Border Margin="10" Padding="10">
+                <VerticalStackLayout>
+                    <Button Clicked="Custom" Text="Animacao Customizada" />
+                    <Button Clicked="Cor" Text="Animacao de Cor" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

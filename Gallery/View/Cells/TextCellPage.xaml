@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Gallery.View.Cells.TextCellPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="TextCellPage">
+    <VerticalStackLayout Padding="10">
+        <TableView>
+            <TableSection Title="Lista de Colaboradores">
+                <TextCell Detail="Idade: 34 anos, Cargo: Analista de Gerentes" Text="Nome do cabra" />
+                <TextCell Detail="Idade: 31 anos, Cargo: Analista de Supervisores" Text="Nome do cabra" />
+            </TableSection>
+        </TableView>
+    </VerticalStackLayout>
+</ContentPage>

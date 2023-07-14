@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Gallery.Accessability.AccessabilityPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="AccessabilityPage">
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Image
+            SemanticProperties.Description="Robô do dotnet maui"
+            SemanticProperties.Hint="Logo do dotnet maui - Robô roxo acenando!"
+            Source="dotnet_bot.png" />
+        <Label
+            Margin="0,20"
+            FontSize="24"
+            HorizontalOptions="Center"
+            SemanticProperties.HeadingLevel="Level1"
+            Text="Bem Vindo ao .NET MAUI"
+            VerticalOptions="Center" />
+
+        <Label Text="Com o .NET MAUI vc consegue contruir aplicativos multiplataforma navitos com um único código base." TextColor="Gray" />
+
+        <Button
+            SemanticProperties.Description="Botão para Fechar"
+            SemanticProperties.Hint="Ao clicar neste botao, o applicativo será totalmente fechado"
+            Text=".NET MAUI - Botão" />
+        <Entry Placeholder="Campo de Texto" SemanticProperties.Description="Campo de entrada de texto para email" />
+    </VerticalStackLayout>
+</ContentPage>

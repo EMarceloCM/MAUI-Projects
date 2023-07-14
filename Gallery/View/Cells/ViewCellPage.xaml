@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Gallery.View.Cells.ViewCellPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="ViewCellPage">
+    <VerticalStackLayout>
+        <TableView>
+            <TableSection Title="Colaboradores">
+                <ViewCell>
+                    <Grid ColumnDefinitions="70,*">
+                        <Image Margin="20,0,0,0" Source="dotnet_bot.png" />
+                        <VerticalStackLayout Grid.Column="1">
+                            <Label
+                                Margin="15,0,0,0"
+                                FontSize="28"
+                                Text="José Rodriges" />
+                            <Label Margin="15,0,0,0" Text="Presidente (CEO)" />
+                        </VerticalStackLayout>
+                        <Button
+                            Grid.Column="2"
+                            HorizontalOptions="End"
+                            Text="Excluir"
+                            VerticalOptions="CenterAndExpand" />
+                    </Grid>
+                </ViewCell>
+                <ViewCell>
+                    <Grid ColumnDefinitions="70,*">
+                        <Image
+                            Grid.Row="1"
+                            Margin="20,0,0,0"
+                            Source="dotnet_bot.png" />
+                        <VerticalStackLayout Grid.Row="1" Grid.Column="1">
+                            <Label
+                                Margin="15,0,0,0"
+                                FontSize="28"
+                                Text="Júlio Nobrega" />
+                            <Label Margin="15,0,0,0" Text="Executivo (ECT)" />
+                        </VerticalStackLayout>
+                        <Button
+                            Grid.Row="1"
+                            Grid.Column="2"
+                            HorizontalOptions="End"
+                            Text="Excluir"
+                            VerticalOptions="CenterAndExpand" />
+                    </Grid>
+                </ViewCell>
+            </TableSection>
+        </TableView>
+    </VerticalStackLayout>
+</ContentPage>
