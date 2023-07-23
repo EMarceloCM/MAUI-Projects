@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ShoppingCenter
+build_property.ProjectDir = C:\Users\edmyl\source\repos\ShoppingCenter\
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Resources/Styles/ExplicitStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Resources.Styles.ExplicitStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\ExplicitStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\ExplicitStyles.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AppShell.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Cinemas/DetailDesktopPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Cinemas.DetailDesktopPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cinemas\DetailDesktopPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cinemas\DetailDesktopPage.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Cinemas/DetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Cinemas.DetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cinemas\DetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cinemas\DetailPage.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Cinemas/ListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Cinemas.ListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cinemas\ListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cinemas\ListPage.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Restaurantes/ListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Restaurantes.ListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Restaurantes\ListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Restaurantes\ListPage.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Stores/DetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Stores.DetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Stores\DetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Stores\DetailPage.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Stores/ListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Stores.ListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Stores\ListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Stores\ListPage.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Tickets/CameraPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Tickets.CameraPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Tickets\CameraPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Tickets\CameraPage.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Tickets/ListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Tickets.ListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Tickets\ListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Tickets\ListPage.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Tickets/PayPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Tickets.PayPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Tickets\PayPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Tickets\PayPage.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Tickets/ResultPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Tickets.ResultPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Tickets\ResultPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Tickets\ResultPage.xaml
+
+[C:/Users/edmyl/source/repos/ShoppingCenter/Views/Tickets/ScanPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingCenter.Views.Tickets.ScanPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Tickets\ScanPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Tickets\ScanPage.xaml

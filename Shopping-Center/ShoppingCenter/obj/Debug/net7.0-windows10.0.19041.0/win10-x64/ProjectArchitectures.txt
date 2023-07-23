@@ -1,0 +1,1 @@
+C:\Users\edmyl\source\repos\ShoppingCenter\ShoppingCenter.csproj;x64

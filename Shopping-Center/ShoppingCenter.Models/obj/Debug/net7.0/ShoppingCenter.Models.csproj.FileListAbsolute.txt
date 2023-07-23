@@ -1,0 +1,12 @@
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\bin\Debug\net7.0\ShoppingCenter.Models.deps.json
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\bin\Debug\net7.0\ShoppingCenter.Models.dll
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\bin\Debug\net7.0\ShoppingCenter.Models.pdb
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\obj\Debug\net7.0\ShoppingCenter.Models.csproj.AssemblyReference.cache
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\obj\Debug\net7.0\ShoppingCenter.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\obj\Debug\net7.0\ShoppingCenter.Models.AssemblyInfoInputs.cache
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\obj\Debug\net7.0\ShoppingCenter.Models.AssemblyInfo.cs
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\obj\Debug\net7.0\ShoppingCenter.Models.csproj.CoreCompileInputs.cache
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\obj\Debug\net7.0\ShoppingCenter.Models.dll
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\obj\Debug\net7.0\refint\ShoppingCenter.Models.dll
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\obj\Debug\net7.0\ShoppingCenter.Models.pdb
+C:\Users\edmyl\source\repos\ShoppingCenter.Models\obj\Debug\net7.0\ref\ShoppingCenter.Models.dll

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ShoppingCenter.Views.Tickets.ListPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converter="clr-namespace:ShoppingCenter.Libraries.Converters"
+    xmlns:vm="clr-namespace:ShoppingCenter.ViewModels.Tickets"
+    Title="Voltar">
+    <ContentPage.Resources>
+        <converter:TimeSpanToTimeStringConverter x:Key="TimeSpanToTimeStringConverter" />
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <vm:ListPageViewModel />
+    </ContentPage.BindingContext>
+    <Grid RowDefinitions="70, *">
+        <Label Margin="20,0" SemanticProperties.HeadingLevel="Level1">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Style="{StaticResource HeadingText01}" Text="Tickets &#x0a;" />
+                    <Span Style="{StaticResource HeadingText02}" Text="pagos" />
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <CollectionView
+            Grid.Row="1"
+            EmptyView="Nenhum Registro!"
+            ItemsSource="{Binding Tickets}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border
+                        Margin="20"
+                        Padding="20"
+                        Style="{StaticResource BorderDotStyle}">
+                        <VerticalStackLayout Spacing="5">
+                            <Label SemanticProperties.HeadingLevel="Level2">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Ticket #" />
+                                        <Span Text="{Binding TicketNumber}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label Margin="0,15,0,0">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Style="{StaticResource SecondaryText}" Text="Permanência: " />
+                                        <Span Style="{StaticResource SecondaryText}" Text="{Binding ., Converter={StaticResource TimeSpanToTimeStringConverter}}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Style="{StaticResource SecondaryText}" Text="Entrada: " />
+                                        <Span Style="{StaticResource SecondaryText}" Text="{Binding DateIn, StringFormat='{0:dd/MM/yyyy HH:mm}'}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Style="{StaticResource SecondaryText}" Text="Saída: " />
+                                        <Span Style="{StaticResource SecondaryText}" Text="{Binding DateOut, StringFormat='{0:dd/MM/yyyy HH:mm}'}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span
+                                            FontFamily="OpenSansBold"
+                                            Style="{StaticResource DetailText}"
+                                            Text="Valor: "
+                                            TextColor="#FFFFFF" />
+                                        <Span
+                                            FontFamily="OpenSansBold"
+                                            Style="{StaticResource DetailText}"
+                                            Text="{Binding Price, StringFormat='{0:C}'}"
+                                            TextColor="#FFFFFF" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
