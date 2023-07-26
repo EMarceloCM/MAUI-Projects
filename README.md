@@ -1,6 +1,6 @@
 # MAUI-Projects 
 
-Some projects i'm doing while studying (I'm still doing some ones) <img align="right" src="https://user-images.githubusercontent.com/13558917/137551073-ac8958bf-83e3-4ae3-8623-4db6dce49d02.png" heght="auto"/>
+Some projects i've done while studying <img align="right" src="https://user-images.githubusercontent.com/13558917/137551073-ac8958bf-83e3-4ae3-8623-4db6dce49d02.png" heght="auto"/>
 </br>
 Give it a star if you're starting to learn and are also a mobile and C# lover ❤️
 
