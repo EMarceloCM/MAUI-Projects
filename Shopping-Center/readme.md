@@ -1,6 +1,6 @@
 ## Preview
 
-<img src="https://github.com/EMarceloCM/MAUI-Projects/assets/120042864/13a734a1-4a91-41b9-9019-1755ba5fef7c" widht="30" />
+<img src="https://github.com/EMarceloCM/MAUI-Projects/assets/120042864/13a734a1-4a91-41b9-9019-1755ba5fef7c" widht="10" />
 <img src="https://github.com/EMarceloCM/MAUI-Projects/assets/120042864/c77a0951-ba85-4c85-90c8-c78440a605cf" width="30" />
 <img src="https://github.com/EMarceloCM/MAUI-Projects/assets/120042864/0a0485dd-ab41-43b8-a197-8ddd9288b668" width="30" />
 <img src="https://github.com/EMarceloCM/MAUI-Projects/assets/120042864/a2eb8e17-41b8-4649-9591-2e76a0e66d3e" width="30" />
