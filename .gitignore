@@ -200,3 +200,6 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+llvm/
+llvm/*
